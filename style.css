@@ -1,0 +1,94 @@
+.body {
+  
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+   background-color: rgb(175, 114, 114);
+    padding: 15px;
+    align-items: center;
+}
+.header .logo{
+    margin-left: 1em;
+}
+.banner > img{
+    width: 100%;
+}
+.h1{
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: red;
+ text-transform: capitalize;
+}
+
+.nav {
+    /* background-color: ; */
+    margin-right: 1em;
+}
+.nav-small {
+    display: none;
+}
+
+.nav>ul {
+    display: flex;
+    color: white;
+    column-gap: 2em;
+    margin: 0px;
+    padding: 0 0.5em;
+}
+
+.nav>ul>li {
+    list-style: none;
+    margin: 1em;
+}
+
+
+
+
+#content {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 1em;
+
+}
+
+.articleSection {
+    display: flex;
+    margin-top: 1em;
+    column-gap: 2em;
+}
+.camera{
+  text-align: center;
+}
+.camera > del{
+   
+    font-size: 1.2em;
+}
+.camera > .h2{
+    color: brown;
+
+}
+.button{
+    background-color: red;
+}
+
+button{
+    border-radius: 20px;
+    background-color: aqua;
+    color: antiquewhite;
+}
+button:hover{
+    background-color: gray;
+}
+
+
+/* 250x180 */
+
+
+
